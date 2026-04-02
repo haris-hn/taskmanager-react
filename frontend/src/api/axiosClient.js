@@ -3,7 +3,7 @@ import axios from 'axios';
 // Create an Axios instance
 const axiosClient = axios.create({
   // Points to local dev proxy or direct URL
-  baseURL: 'http://localhost:5000/api', 
+  baseURL: 'https://taskmanager-react-production.up.railway.app/api', 
   headers: {
     'Content-Type': 'application/json',
   },
